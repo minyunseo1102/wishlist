@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2 class="notice">
+        *Все с Валлапопа, поэтому доставка платная
+    </h2>
+    
+    <main class="container">
+
+        <section id="home-page" class="page">
+
+            <h1>Wishlist</h1>
+
+            <p class="subtitle">
+                Выбери диапазон цены
+            </p>
+
+            <div
+                id="price-ranges"
+                class="buttons"
+            ></div>
+
+        </section>
+
+
+        <section
+            id="items-page"
+            class="page hidden"
+        >
+
+            <button
+                id="back-to-ranges"
+                class="back-button"
+            >
+                Назад
+            </button>
+
+            <h1 id="range-title"></h1>
+
+            <div
+                id="items-list"
+                class="items-list"
+            ></div>
+
+        </section>
+
+
+        <section
+            id="category-page"
+            class="page hidden"
+        >
+
+            <button
+                id="back-to-items"
+                class="back-button"
+            >
+                Назад
+            </button>
+
+            <h1 id="category-name"></h1>
+
+            <p
+                id="category-description"
+                class="description"
+            ></p>
+
+            <div
+                id="category-items-list"
+                class="items-list"
+            ></div>
+
+        </section>
+
+
+        <section
+            id="item-page"
+            class="page hidden"
+        >
+
+            <button
+                id="back-to-category"
+                class="back-button"
+            >
+                Назад
+            </button>
+
+            <article class="item">
+
+                <img
+                    id="item-image"
+                    src=""
+                    alt=""
+                >
+
+                <h1 id="item-name"></h1>
+
+                <p
+                    id="item-price"
+                    class="price"
+                ></p>
+
+                <p
+                    id="item-description"
+                    class="description"
+                ></p>
+
+                <a
+                    id="item-link"
+                    class="item-link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ссылочка
+                </a>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
